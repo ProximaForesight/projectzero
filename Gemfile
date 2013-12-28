@@ -1,9 +1,9 @@
 source 'https://rubygems.org'
-
+ruby '2.0.0'
 # Bundle edge Rails instead: gem 'rails', github: 'rails/rails'
 gem 'rails', '4.0.2'
 
-# Use sqlite3 as the database for Active Record i ndev and PG in Prod
+# Use sqlite3 as the database for Active Record in dev and PG in Prod
 group :development, :test do
 	gem 'sqlite3'
 end
@@ -48,3 +48,6 @@ end
 
 # Use debugger
 # gem 'debugger', group: [:development, :test]
+
+# Add rails item noted by bundler
+gem 'rails_12factor'
